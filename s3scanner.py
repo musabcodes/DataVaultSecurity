@@ -20,4 +20,4 @@ def scan_s3_bucket(bucket_name):
             print(f"Unencrypted file detected: {key}")
 
 # Run the scanner
-scan_s3_bucket('your-bucket-name')
+scan_s3_bucket('datavaultsecurity')
