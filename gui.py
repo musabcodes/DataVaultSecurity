@@ -1,10 +1,11 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox, scrolledtext
 from s3_scanner import S3Scanner
-from iampolicy import IAMPolicyAnalyzer
+from iam_policy_analyzer import IAMPolicyAnalyzer  # Updated import
 from reports import ReportManager
 from alerts import SecurityAlerts
 import json
+
 
 class SecurityScannerGUI:
     def __init__(self, root):
